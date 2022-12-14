@@ -1,3 +1,14 @@
-body {
-  background-color: red;
-}
+@import "../../libs/normalize";
+
+@import "presets/skin";
+@import "presets/variables";
+
+@import "common/typography";
+@import "common/classes";
+
+@import "components/header/header-content";
+@import "components/header/header-logo";
+@import "components/header/header-menu";
+@import "components/header/header-navbar";
+@import "components/header/header-overlay";
+
